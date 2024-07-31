@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+    .container{
+        margin: 15%;
+        padding:30px;
+        display: flex;
+        border: 2px solid; 
+        flex-direction: column;
+        background-color: rgb(183, 206, 198);
+    }
+    form{
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    .contact{
+        font-size: 1.5rem;
+
+    }
+    button{
+        border-radius: 22px;
+        background-color: blue;
+        color: beige;
+        font-size: large;
+    }
+    button:hover{
+        background-color: brown;
+    }
+
+    
+    </style>
+    <div class="contact">Contact me for works</div>
+    <div class="container">
+    <form>
+        <div class="section-1">
+        <b><label for="fullname"> Enter your fullname</label></b><br>
+        <input type="text" placeholder="Username" id="fullname"><br>
+
+        <b><label for="email">Enter your email</label></b><br>
+        <input type="text" class="email" id="fullname"><br>
+
+        <b><label for="password">Enter your password</label></b><br>
+        <input type="password" class="password" id="password"><br>
+
+        </div>
+
+       <div class="section-2">
+       <b><label for="gender">Enter your gender</label></b><br>
+          <label> <input type="radio" id="male" name="gender">Male</label><br>
+           <label><input type="radio" id="female" name="gender">Female</label><br>
+          <label> <input type="radio" id="other" name="gender">Other</label><br>
+           
+
+        <b><label for="questions">Enquiry</label></b><br>
+        <textarea name="questions"></textarea><br>
+
+        <button>Button</button>
+       </div>
+</form>
+</div>
+</body>
+</html>

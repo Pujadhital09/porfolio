@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.container{
+    display: flex;
+}
+.sidebar{
+    background-color: rgb(37, 37, 37);
+    width: 15%;
+    height: 100;
+    padding-top: 0px;
+}
+.sidebar nav{
+    padding: 30px;
+}
+
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding: 40px 0;
+}
+a:hover{
+    background-color: rgb(153, 134, 79);
+}
+a{
+    text-decoration: none;
+    color:beige;
+}
+.hero-section{
+    background-color: rgb(164, 160, 168);
+    width: 85%;
+    height: 100%;
+}
+
+.info-container{
+    /* background-color: red; */
+    height: 60vh;
+    width: 80vw ;
+    margin: 80px auto;
+    padding-left: 120px;
+    display: flex;
+    /* justify-content: space-around; */
+    padding-right: 140px;
+}
+.info{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.image img{
+    height: 50vh;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    
+    /* border-radius: 50%; */
+}
+.hello{
+    font-size: 45px;
+}
+.name{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.about{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.buttons{
+    padding-top: 20px;
+}
+.buttons button{
+    padding: 10px 16px;
+    border-radius: 22px;
+    color: azure;
+    background-color: black;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+}
+/* hover */
+.buttons button:hover{
+    background-color: blue;
+    width: 25%;
+}
+
+/* iconss */
+.icons{
+margin-left: 900px;
+margin-bottom: 50px;
+}
+.facebook{
+font-size: 2rem;
+width: 3.5rem;
+justify-content:center;
+align-items: center;
+color: #574dec;
+padding: 10px 6px;
+border-radius: 50%;
+}
+.twitter{
+    font-size: 2rem;
+    width: 3.5rem;
+    justify-content:center;
+    align-items: center;
+    color: #0f0f0f;
+    padding: 10px 6px;
+    border-radius: 50%;
+    }
+.instagram{
+        font-size: 2rem;
+        width: 3.5rem;
+        justify-content:center;
+        align-items: center;
+        color: #c71919;
+        padding: 10px 6px;
+        border-radius: 50%;
+        }
+ .whatsapp{
+            font-size: 2rem;
+            width: 3.5rem;
+            justify-content:center;
+            align-items: center;
+            color: #12722e;
+            padding: 10px 6px;
+            border-radius: 50%;
+            }
+ .viber{
+               font-size: 2rem;
+                width: 3.5rem;
+                justify-content:center;
+                align-items: center;
+                color: #5a3efa;
+                padding: 10px 6px;
+                border-radius: 50%;
+                }
+
+/* aboutt */
+.about-me{
+
+    background-color: rgb(169, 164, 175);
+    width: 100%;
+    height:140px;
+    padding: 10px;
+    margin-left: 10px;
+    font-size: 20px;
+}
+span{
+    color: red;
+    margin-left: 20px;
+}
+pre{
+    margin-top: 10px;
+    font-weight: bold;
+}
+.section-1{
+    display: flex;
+    justify-content: space-around;
+}
+.skill{
+    background-color: rgb(169, 164, 175);
+    width: 100%;
+    height:140px;
+    padding: 10px;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+/* form */
+.contact{
+    padding-left: 30px;
+    margin-top: 70px;
+    width: 80%;
+}
+.contact-1{
+    flex-basis: 35%;
+}
+.contact-2{
+    flex-basis: 60%;
+}
+.contact-1 p{
+    margin-top: 30px;
+}
+
+.btn.btn2{
+    display: inline-block;
+    background: #7653af;
+}
+.contact-2 form{
+    width: 100%;
+}
+form input, form textarea{
+    width: 100%;
+    border: 0;
+    outline: none;
+    background-color: rgb(40, 24, 61);
+    padding: 15px;
+    margin: 15px 0;
+    color: #f8eaea;
+    font-size: 18px;
+    border-radius: 6px;
+}
+form .btn2{
+    padding: 14px 60px;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+/* arrow */
+.arrow{
+    display: flex;
+    position: fixed;
+    right:50px;
+    bottom: 20px;
+    background-color: rgb(194, 190, 230);
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: rgb(243, 232, 232);
+}
+.location{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.location h1{
+    color: rgb(24, 23, 23);
+}
+
+
+
+
+
+
+
+
+
+
+ 
